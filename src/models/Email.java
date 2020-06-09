@@ -29,27 +29,4 @@ public final class Email {
     public static EmailBuilder builder() {
         return new NewEmailBuilder();
     }
-
-
-    //region Getters
-    public String getFrom() {
-        return from;
-    }
-
-    public List<String> getTo() {
-        return to;
-    }
-
-    public String getSubject() {
-        return subject;
-    }
-
-    public String getBody() {
-        return body;
-    }
-
-    public List<String> getCcTo() {
-        return ccTo;
-    }
-    //endregion
 }
